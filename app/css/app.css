@@ -1,0 +1,33 @@
+body {
+  padding-top: 70px;
+}
+
+.navbar-nav {
+  float: none;
+}
+
+.navbar-nav>li {
+  text-align: center;
+  width: 100%;
+}
+
+.container .navbar-form .form-group{
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.container .navbar-form .form-group input{
+  width: 70%;
+}
+
+.container .navbar-form button{
+  width: 20%;
+}
+
+.container .loginSuccess, .container .loginFailed {
+  margin: 10px auto;
+  text-align: center;
+  width:50%;
+}
