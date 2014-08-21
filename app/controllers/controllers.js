@@ -11,7 +11,7 @@ controllers.View1Controller = function($scope, $http, $location) {
   $scope.isUserAuthenticated = function() {
     var promise = $http ({
         method : 'POST',
-        url : '/netgear_login_demo/app/data/data.json',
+        url : '/app/data/data.json',
         // TODO: this won't work as we are making calls from localhost to
         // arlo.netgear.com
         // url : '//arlo.netgear.com/nusweb/login',
