@@ -31,3 +31,7 @@ body {
   text-align: center;
   width:50%;
 }
+
+.form-group .ng-invalid {
+  border: red 1px solid;
+}
